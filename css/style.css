@@ -10,30 +10,30 @@ header p {
   margin: 0%;
 }
 
-/* stylelint-disable selector-list-comma-newline-after */
-
-.blog-header {
-  line-height: 1;
-  border-bottom: 1px solid #e5e5e5;
+.card {
+  border: 2px solid #C8D5EC;
+}
+.card .card-header {
+  color:#336;
+  background-color: #C8D5EC;
 }
 
-.blog-header-logo {
-  font-size: 2.25rem;
+.card a {
+  color:gray
 }
 
-.blog-header-logo:hover {
-  text-decoration: none;
+.card .btn-login {
+  color:#336;
+  background-color: #C8D5EC;
+}
+
+#cabecalho {
+  background-color: #C4D2EB;
 }
 
 
-
-.display-4 {
-  font-size: 2.5rem;
-}
-@media (min-width: 768px) {
-  .display-4 {
-    font-size: 3rem;
-  }
+#menu {
+  background-color: #EFEBDE;
 }
 
 .nav-scroller {
@@ -58,69 +58,80 @@ header p {
   padding-top: .75rem;
   padding-bottom: .75rem;
   font-size: .875rem;
+  color:black;
 }
 
-.card-img-right {
-  height: 100%;
-  border-radius: 0 3px 3px 0;
+.toast {
+  border: 1px solid #6593CF;
 }
 
-.flex-auto {
-  flex: 0 0 auto;
+.toast-header {
+  color: #003395;
+  background: #e3eaf5;
 }
 
-.h-250 { height: 250px; }
-@media (min-width: 768px) {
-  .h-md-250 { height: 250px; }
+.toast-body {
+  background: #e3eaf5;
 }
 
-/* Pagination */
-.blog-pagination {
-  margin-bottom: 4rem;
-}
-.blog-pagination > .btn {
-  border-radius: 2rem;
+.carousel-indicators li{
+  background-color:black;
 }
 
-/*
- * Blog posts
- */
-.blog-post {
-  margin-bottom: 4rem;
-}
-.blog-post-title {
-  margin-bottom: .25rem;
-  font-size: 2.5rem;
-}
-.blog-post-meta {
-  margin-bottom: 1.25rem;
-  color: #727272;
+.carousel {
+  background-color:#FFFCF5;
+  margin: 0%;
 }
 
-/*
- * Footer
- */
-.blog-footer {
-  padding: 2.5rem 0;
-  color: #727272;
-  text-align: center;
-  background-color: #f9f9f9;
-  border-top: .05rem solid #e5e5e5;
-}
-.blog-footer p:last-child {
-  margin-bottom: 0;
+.carousel-item p {
+  font-size:16px;
 }
 
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
+.componentes,.forum {
+  background:#EFF3FA;
 }
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
+.componentes p,.forum p {
+  color: #003395;
+  font-weight: 600;
+}
+
+footer {
+  background-color:#404E82;
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+.perfil-usuario {
+  background-color: #EFF3FA;
+  border:solid 4px #CFDCEF;
+}
+
+.modal-header {
+  background-color: #EFF3FA;
+  border:solid 4px #CFDCEF;
+}
+
+.ira {
+  padding-top:5px;
+}
+.ira p {
+  color: #003395;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .bd-highlight i {
+    font-size:22px;
+    color: #404E82;
+  }
+  .forum {
+    margin-top: 10px;
+  }
+  .perfil-usuario {
+    padding-left: 5px;
+    padding-bottom:100px;
   }
 }
